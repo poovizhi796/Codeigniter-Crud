@@ -38,6 +38,7 @@ class Registration extends ci_controller
 	public function getOne()
 	{
 		echo $this->uri->segment(3);
+		//which means, controller/function/get_id
 		echo 'edit';
 	}
 	public function showOne()
